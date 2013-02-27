@@ -28,24 +28,18 @@ canvas{
 	top:  84px;
 }
 
-#presentacion {
-	position: absolute;
-
-	z-index: 92;
-
-	top:  0px;
-	left: 0px;	
-}
-
-
 #click{
 	position: absolute;
 
 	z-index: 93;
 
-	top:  458px;
-	left: 282px;
+	top: 585px;
+	left: 155px;
 
-	width: 455px;
-	height: 70px;
+	padding: 40px;
+
+	font-size: 30pt;
+	color: #eee;
+
+	background-color: #000;
 }
