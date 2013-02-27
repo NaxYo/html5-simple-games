@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
 
-		<title>socialPuzle</title>
+		<title>trapDaBall</title>
 		<link rel="stylesheet" type="text/css" href="css/game.css"/>
 
 		<script src="http://code.jquery.com/jquery-latest.pack.js" type="text/javascript"></script>
@@ -11,17 +11,7 @@
 
 		<script type="text/javascript">
 			var start = function(){
-				MESA_LORCO.game.init(8,14,stop);
-
-				$('#page').click(function(e) {
-					var offset = $(this).offset();
-
-					MESA_LORCO.game.click({
-						x: e.pageX - e.target.offsetLeft - offset.left,
-						y: e.pageY - e.target.offsetTop  - offset.top
-					});
-				});
-
+				TRAPABOLA.game.init(900, 600, stop);
 				$(this).hide();
 			};
 
@@ -38,7 +28,7 @@
 	</head>
 
 	<body>
-		<div id="page">
+		<div class="clearfix" id="page">
 			<div id="click">PLAY!</div>
 		</div>
 	</body>

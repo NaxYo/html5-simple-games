@@ -1,0 +1,51 @@
+html{
+	background-color: #7F7F7F;
+}
+
+#page{
+	position: relative;
+
+	z-index: 1;
+	height: 768px;
+	width: 1024px;
+
+	border-style: none;
+	border-color: transparent;
+	background-color: #555;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	overflow: hidden;
+}
+
+canvas{
+	position: absolute;
+
+	z-index: 90;
+	
+	left: 62px;
+	top:  84px;
+}
+
+#presentacion {
+	position: absolute;
+
+	z-index: 92;
+
+	top:  0px;
+	left: 0px;	
+}
+
+
+#click{
+	position: absolute;
+
+	z-index: 93;
+
+	top:  458px;
+	left: 282px;
+
+	width: 455px;
+	height: 70px;
+}
